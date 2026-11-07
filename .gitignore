@@ -1,9 +1,10 @@
-# Local SQLite database and journals
-bookstore.db
-bookstore.db-*
+# SQLite databases
+*.db
 *.sqlite
 *.sqlite3
-*.db
+
+# Include the portfolio database
+!bookstore.db
 
 # Python
 __pycache__/
